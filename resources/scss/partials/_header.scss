@@ -1,5 +1,15 @@
 @use './variables' as *;
+header {
+    font-size: 1.1rem;
+}
 .top {
     background-color: $primary-color;
     color: white;
+}
+
+.jumbotron{
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+    background-image: url('../img/jumbotron.jpg') ;
 }

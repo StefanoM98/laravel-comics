@@ -1,6 +1,6 @@
 <header>
     <div class="top">
-        <div class="container d-flex justify-content-end gap-4">
+        <div class="container d-flex justify-content-end align-items-center gap-4">
             <p>DC POWER VISA ®</p>
             <p>Additional DC sites</p>
         </div>
@@ -8,7 +8,7 @@
     <div class="bottom">
         <nav class="bg-body-tertiary">
             <div class="container-fluid text-center">
-                <div class="d-flex justify-content-center align-items-center py-3" id="navbarNav">
+                <div class="d-flex justify-content-center align-items-center py-3 gap-4" id="navbarNav">
                     <div class="logo">
                         <img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="">
                     </div>
@@ -52,5 +52,7 @@
                 </div>
             </div>
         </nav>
+    </div>
+    <div class="jumbotron">
     </div>
 </header>
