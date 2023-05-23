@@ -1,0 +1,5 @@
+@use './variables' as *;
+.top {
+    background-color: $primary-color;
+    color: white;
+}
